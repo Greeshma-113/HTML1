@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+    <h2>Welcome to HTML</h2>
+    <h3>Welcome to HTML</h3>
+    <h4>Welcome to HTML</h4>
+    <h5>Welcome to HTML</h5>
+    <h6>Welcome to HTML</h6>
+
+     <p>
+        My name is Greeshma. I am a student who is passionate about learning new technologies and improving my programming skills. I enjoy solving coding problems and exploring different areas of computer science.
+    </p>
+
+    <p>
+        I have knowledge of programming languages such as Python, SQL, and MongoDB. I am interested in web development and database management systems, and I continuously work on enhancing my technical skills.
+    </p>
+
+    <p>
+        In my free time, I like reading, practicing coding challenges, and learning new concepts. My goal is to build a successful career in the IT industry and contribute to innovative projects.
+    </p>
+
+    <p>Name: Greeshma</p>
+    <p>College: MITS College</p>
+    <p>Department: Computer Science</p>
+    
+    <p>
+        I have knowledge of programming languages such as Python SQL, and MongoDB. I am interested in web development and database management systems, and I continuously work on enhancing my technical skills.
+    </p>
+    <hr>
+
+    <p>
+        I have knowledge of programming languages such as Python<br><br> SQL, and MongoDB. I am interested in web development <br><br>and database management systems, and I continuously work on enhancing my technical skills.
+    </p>
+
+    <p><b>This is Bold</b></p>
+    <p><i>This is Italic</i></p>
+    <p><u>This is UnderLine</u></p>
+
+     <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+
+     <p>H<sub>2</sub>O</p>
+
+     <p><del>a</del></p>
+
+     <p><mark>Greeshma</mark></p>
+
+     <p><strong>My Name is Greeshma</strong></p>
+
+     <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Ruby</li>
+        <li>Java Script</li>
+     </ul>
+
+     <ol>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Ruby</li>
+        <li>Java Script</li>
+     </ol>
+
+     <h2>Nested List</h2>
+
+    <ul>
+        <li>Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+
+        <li>Backend
+            <ul>
+                <li>NodeJS</li>
+                <li>Python</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Description List</h2>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML is used to create the structure of a webpage.</dd>
+
+        <dt>CSS</dt>
+        <dd>CSS is used to style and design the webpage.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>JavaScript is used to add interactivity and functionality to the webpage.</dd>
+    </dl>
+
+    <h2>Shopping List</h2>
+    <ul>
+        <li>Rice</li>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Fruits</li>
+    </ul>
+
+    <a href="https://google.com">
+        Click Me
+    </a>
+    <br><br>
+
+    <a href="https://google.com" target="_blanck">
+        Click Me
+    </a>
+    <br><br>
+
+    <a href="https://google.com" target="_blanck">
+        Click Me
+    </a>
+    <br><br>
+    <a href="https://www.youtube.com/" target="_blanck">
+        Youtube
+    </a>
+    <br><br>
+    <a href="https://github.com/dashboard" target="_blanck">
+        Github
+    </a>
+
+    <br><br>
+    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blanck">
+        Email
+    </a>
+
+        <br><br>
+    <a <a href="tel:9876543210">Call Us: 9876543210</a>
+    phone number
+    </a>
+
+    <br><br>
+    <a href="https://thehousethatlarsbuilt.com/2017/10/diy-bookmark-tassels.html/">
+        bookmark
+    </a>
+    <br><br>
+    <img src="data:image/jpeg;base64,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" alt="Image" width="300" height="200">
+    <h2>Display Three Images</h2>
+
+    <img src="https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_1280.jpg" alt="Image 1" width="200" height="150">
+    <img src="https://us.123rf.com/450wm/kotenko/kotenko1304/kotenko130400095/18909232-beautiful-pink-flowers-of-rhododendron-glade-mountain-landscape-bright-sunny-day.jpg?ver=6" alt="Image 2" width="200" height="150">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-xsRRb7YmxIVBUQmRSJeA5SyjK5xaYk7xyw&s" alt="Image 3" width="200" height="150">
+
+    <h2>Clickable Image</h2>
+
+    <a href="https://www.blacktomato.com/inspirations/japanese-cherry-blossom-season/">
+        <img src="https://media.blacktomato.com/cdn-cgi/image/width=1668,height=1700,fit=cover,quality=82,format=auto/https://media.blacktomato.com/2024/11/japan-g32cea4447_1920.jpg" alt="Flower Image" width="300" height="200">
+    </a>
+    <h2>Student Details Table</h2>
+    <table border="1">
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Greeshma</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Anu</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Ravi</td>
+            <td>EEE</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Ravi</td>
+            <td>EEE</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Priya</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Kiran</td>
+            <td>MECH</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th rowspan="3">Student Details</th>
+        </tr>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Greeshma</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Anu</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Ravi</td>
+            <td>EEE</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Priya</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Kiran</td>
+            <td>MECH</td>
+        </tr>
+    </table>
+    Merge rows using rowspan.
+    <h2>Marks Table</h2>
+
+    <table border="1">
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>English</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Greeshma</td>
+            <td>90</td>
+            <td>88</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Anu</td>
+            <td>85</td>
+            <td>80</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Ravi</td>
+            <td>78</td>
+            <td>82</td>
+            <td>75</td>
+        </tr>
+    </table>
+    <h2>Class Timetable</h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>9-10</th>
+            <th>10-11</th>
+            <th>11-12</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>English</td>
+            <td>Biology</td>
+            <td>Computer</td>
+        </tr>
+    </table>
+    <h2>Employee Details</h2>
+
+    <table border="1">
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>201</td>
+            <td>Rahul</td>
+            <td>HR</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>202</td>
+            <td>Sneha</td>
+            <td>IT</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>203</td>
+            <td>Kiran</td>
+            <td>Finance</td>
+            <td>28000</td>
+        </tr>
+    </table>
+    <h2>Product Details</h2>
+
+    <table border="1">
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Laptop</td>
+            <td>50000</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mobile</td>
+            <td>20000</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Headphones</td>
+            <td>1500</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+    </form>
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+     <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="dob"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <h2>Registration Form</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Phone: <input type="tel" name="phone"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="dob"><br><br>
+
+        Age:
+        <input type="number" name="age"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <h2>Input Types Example</h2>
+
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Age: <input type="number" name="age"><br><br>
+        Date of Birth: <input type="date" name="dob"><br><br>
+        Upload File: <input type="file" name="file"><br><br>
+    </form>
+    <h2>Color Picker</h2>
+
+    <form>
+        Choose Color: <input type="color" name="color">
+    </form>
+    <h2>Range Slider</h2>
+
+    <form>
+        Select Range: <input type="range" name="range">
+    </form>
+    <h2>Search Box</h2>
+
+    <form>
+        Search: <input type="search" name="search">
+    </form>
+    <h2>URL Input</h2>
+
+    <form>
+        Website: <input type="url" name="website">
+    </form>
+    <h2>Telephone Input</h2>
+
+    <form>
+        Phone Number: <input type="tel" name="phone">
+    </form>
+    <h2>Audio File</h2>
+
+    <audio>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Audio with Controls</h2>
+
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Video File</h2>
+
+    <video width="400" height="300">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+     <h2>Video with Controls</h2>
+
+    <video width="400" height="300" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+     <h2>YouTube Video</h2>
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+    </iframe>
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Main Section</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is an article inside the section.</p>
+        </article>
+    </section>
+
+    <aside>
+        <p>This is sidebar content.</p>
+    </aside>
+
+    <footer>
+        <p>Copyright 2026</p>
+    </footer>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Posts</a> |
+        <a href="#">About</a>
+    </nav>
+
+    <section>
+        <article>
+            <h2>First Blog Post</h2>
+            <p>This is my first blog post content.</p>
+        </article>
+
+        <article>
+            <h2>Second Blog Post</h2>
+            <p>This is my second blog post content.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>End of Blog Page</p>
+    </footer>
+    <header>
+        <h1>Daily News</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Politics</a> |
+        <a href="#">Sports</a>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Breaking News</h2>
+            <p>Today’s top news story goes here.</p>
+        </article>
+
+        <article>
+            <h2>Sports News</h2>
+            <p>Latest sports updates go here.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>News Website Footer</p>
+    </footer>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#">About Me</a> |
+        <a href="#">Projects</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am a web development student.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <article>
+            <h3>Project 1</h3>
+            <p>Student Registration Form</p>
+        </article>
+        <article>
+            <h3>Project 2</h3>
+            <p>Employee Table</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>My Portfolio Footer</p>
+    </footer>
+    <h2>Google Maps</h2>
+
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.90509313732!2d78.2679606!3d17.4123487"
+        width="600" 
+        height="450">
+    </iframe>
+    <h2>YouTube Video</h2>
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+    </iframe>
+    <h2>Display Webpage</h2>
+
+    <iframe src="https://www.wikipedia.org" width="800" height="400"></iframe>
+    <h2>HTML Entities</h2>
+
+    <p>&copy;</p>
+    <p>&reg;</p>
+    <p>&#8377;</p>
+    <p>&euro;</p>
+    <p>&amp;</p>
+    <p>&lt;</p>
+    <p>&gt;</p>
+    <h2>Emoji Symbols</h2>
+
+    <p>&#128512; Grinning Face</p>
+    <p>&#128525; Smiling Face with Heart Eyes</p>
+    <p>&#128514; Laughing Face</p>
+    <p>&#128151; Heart</p>
+    <p>&#127881; Party Popper</p>
+     <header>
+        <h1>Greeshma</h1>
+        <p>Email: greeshma@email.com</p>
+        <p>Phone: 9876543210</p>
+    </header>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>To obtain a challenging position in a reputed organization where I can learn and grow.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech in Computer Science</li>
+            <li>Intermediate</li>
+            <li>SSC</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p>Student Registration Form using HTML</p>
+        <p>Employee Database using SQL</p>
+    </section>
+
+    <footer>
+        <p>Thank You</p>
+    </footer>
+
+
+
+
+
+
+    
+
+
+    
+    
+</body>
+</html>
